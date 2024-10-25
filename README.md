@@ -1,20 +1,26 @@
-# CO2-Emissions-Prediction-App-
+# CO2 Emissions Prediction App | CLL725 Project Work
 
-I developed the CO2 Emissions Prediction App as part of my CLL725 Project Work, focusing on predicting CO2 emissions based on various vehicle parameters. The aim of this project is to apply machine learning techniques to estimate a vehicle's CO2 emissions and help users gain insights into the environmental impact of their vehicles.
+## Overview
+The CO2 Emissions Prediction App is designed to estimate a vehicle's CO2 emissions based on various parameters, offering users insights into the environmental impact of their vehicles. Developed as part of my CLL725 Project Work, this app applies machine learning techniques to provide real-time CO2 emissions predictions, which can inform decisions around vehicle usage, fuel consumption, or future vehicle purchases.
 
-The app uses a Linear Regression model trained on vehicle data to predict the CO2 emissions. Users can input details such as engine size, fuel consumption, transmission type, and more. Based on these inputs, the model provides an estimate of the CO2 emissions of the vehicle, which could be useful for decisions around vehicle usage, fuel consumption, or even new purchases.
+## Key Features
+- **Engine Size**: Enter engine displacement in liters.
+- **Vehicle Age**: Specify the vehicle's age in years.
+- **Fuel Consumption**: Input the amount of fuel consumed per 100 kilometers.
+- **Energy Consumption**: Indicate energy usage if applicable.
+- **Fuel Type**: Select from various fuel options.
+- **Transmission Type**: Choose between automatic or manual transmission.
+- **Make**: Select from categories like Luxury, Premium, or Sports.
+- **Vehicle Class**: Define the vehicle type (SUV, Sedan, Truck, etc.).
+- **Kilometers Driven Per Day**: Input the average daily distance driven.
 
-Key features of the app include:
+The app is built using Streamlit, which provides an interactive and user-friendly interface. The underlying model uses Linear Regression, developed with Scikit-learn, to analyze and predict CO2 emissions.
 
-Engine Size: The engine displacement (in liters).
-Vehicle Age: The age of the vehicle in years.
-Fuel Consumption: The amount of fuel consumed per 100 kilometers.
-Energy Consumption: The energy usage of the vehicle (if applicable).
-Fuel Type: Selectable options for the type of fuel the vehicle uses.
-Transmission Type: Various automatic and manual transmission options.
-Make: Choose between Luxury, Premium, or Sports categories.
-Vehicle Class: The type of vehicle (SUV, Sedan, Truck).
-Kilometers Driven Per Day: Average distance the vehicle is driven per day.
-The app is built using Streamlit, which makes the interface simple and interactive. The machine learning model was developed using Scikit-learn, and the app allows anyone to quickly input their vehicle's information and receive a CO2 emissions prediction.
+## Technical Stack
+- **Languages**: Python
+- **Libraries**: Streamlit, Scikit-Learn, Pandas, NumPy
+- **Machine Learning Model**: Linear Regression trained on vehicle data
+
+
 
 This project demonstrates how predictive models can be used to assess environmental factors and how these models can be deployed through an easy-to-use web application. I hope this app can help users make more environmentally conscious decisions by understanding the CO2 output of their vehicles.
